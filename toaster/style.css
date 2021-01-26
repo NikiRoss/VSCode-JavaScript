@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap");
+
+body {
+  background-color: #ffe066;
+  margin: 0;
+  padding: 0;
+}
+
+.my-canvas {
+  height: 510px;
+  width: 350px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.toaster {
+  background-color: #5abff2;
+  height: 90px;
+  width: 120px;
+  position: relative;
+  top: 210px;
+  left: 125px;
+  border-radius: 20px 25px 0 0;
+}
+
+.cover {
+  background-color: #99ddff;
+  height: 90px;
+  width: 120px;
+  border-radius: 20px 25px 0 0;
+  position: relative;
+  right: 30px;
+}
+
+.b1,
+.b2 {
+  background-color: #737373;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.b1 {
+  top: -70px;
+  left: 20px;
+}
+
+.b2 {
+  top: -65px;
+  left: 20px;
+}
+
+.b3 {
+  background-color: #5abff2;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  top: -55px;
+  left: 16px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.shine {
+  position: relative;
+  height: 24px;
+  width: 15px;
+  background-color: #e6f7ff;
+  border-radius: 50%;
+  transform: rotate(30deg);
+  bottom: 35px;
+  left: -25px;
+  top: -130px;
+}
+
+.slot1 {
+  position: relative;
+  background-color: #666666;
+  height: 43px;
+  width: 8px;
+  border-radius: 15px;
+  bottom: 135px;
+  left: 101px;
+}
+
+.slot2 {
+  position: relative;
+  background-color: #333333;
+  height: 41px;
+  width: 5px;
+  bottom: 177px;
+  left: 101.5px;
+  border-radius: 15%;
+}
+
+.handle1 {
+  background-color: white;
+  height: 5px;
+  width: 20px;
+  position: relative;
+  left: 0.1px;
+  top: 2.5px;
+  animation: 6s move infinite;
+}
+
+@keyframes move {
+  50% {
+    transform: translateY(31px);
+  }
+}
+
+.handle2 {
+  position: relative;
+  background-color: #666666;
+  height: 10px;
+  width: 18px;
+  border-radius: 5px;
+  left: 6.5px;
+  bottom: 2.5px;
+}
+
+.handle3 {
+  position: relative;
+  background-color: #333333;
+  height: 9.5px;
+  width: 8px;
+  border-radius: 50%;
+  left: 16.5px;
+  bottom: 12px;
+}
+
+.base1 {
+  background-color: #666666;
+  width: 128px;
+  height: 10px;
+  border-radius: 15px;
+  position: relative;
+  bottom: 164px;
+  right: 33px;
+}
+
+.base2 {
+  background-color: #333333;
+  width: 30px;
+  height: 10px;
+  border-radius: 15px;
+  position: relative;
+  bottom: 154px;
+  left: 91px;
+}
+
+.l1,
+.l2,
+.l3,
+.l4 {
+  height: 7px;
+  width: 8px;
+  background-color: #333333;
+  position: relative;
+}
+
+.l1 {
+  bottom: 164px;
+  right: 20px;
+}
+
+.l2 {
+  bottom: 171px;
+  right: -05px;
+}
+
+.l3 {
+  bottom: 178px;
+  right: -80px;
+}
+
+.l4 {
+  bottom: 184.5px;
+  right: -108px;
+}
+
+.toastl1 {
+  background-color: #cc8800;
+  width: 59px;
+  height: 15px;
+  border-radius: 15px;
+  position: relative;
+  bottom: 330px;
+  left: 24px;
+  z-index: -1;
+  animation: 6s toast infinite;
+}
+
+@keyframes toast {
+  50% {
+    transform: translateY(25px);
+  }
+  80% {
+    transform: translateY(-26px);
+  }
+}
+
+.toastl2 {
+  background-color: #cc8800;
+  width: 52px;
+  height: 45px;
+  border-radius: 15px;
+  position: relative;
+  top: 5px;
+  left: 2.8px;
+}
+
+.toastu1 {
+  background-color: #ffd480;
+  width: 51px;
+  height: 8px;
+  position: relative;
+  bottom: 41px;
+  left: 3.5px;
+  border-radius: 15px;
+}
+
+.toastu2 {
+  background-color: #ffd480;
+  width: 42px;
+  height: 35px;
+  position: relative;
+  bottom: 41px;
+  left: 7.5px;
+}
+
+.toastl3 {
+  background-color: #cc8800;
+  width: 59px;
+  height: 15px;
+  border-radius: 15px;
+  position: relative;
+  bottom: 349px;
+  left: -20px;
+  z-index: -1;
+  animation: 6s toastt infinite;
+}
+
+@keyframes toastt {
+  50% {
+    transform: translateY(27px);
+  }
+  80% {
+    transform: translateY(-26px);
+  }
+}
+
+.toastl4 {
+  background-color: #cc8800;
+  width: 52px;
+  height: 45px;
+  border-radius: 15px;
+  position: relative;
+  top: 7px;
+  left: 2.8px;
+  z-index: -1;
+}
+
+.toastu3 {
+  background-color: #ffd480;
+  width: 51px;
+  height: 8px;
+  position: relative;
+  bottom: 41px;
+  left: 3.5px;
+  border-radius: 15px;
+}
+
+.toastu4 {
+  background-color: #ffd480;
+  width: 42px;
+  height: 37px;
+  position: relative;
+  bottom: 41px;
+  left: 7.5px;
+  z-index: -1;
+}
